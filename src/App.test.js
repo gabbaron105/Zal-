@@ -3,5 +3,5 @@ import App from './App';
 
 test('renders without crashing', () => {
   const { container } = render(<App />);
-  expect(container.firstChild).not.toBeNull();
+  expect(container).not.toBeEmptyDOMElement();
 });
