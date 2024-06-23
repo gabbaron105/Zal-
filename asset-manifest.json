@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Zal-/static/css/main.25c4852a.css",
+    "main.js": "/Zal-/static/js/main.a741d450.js",
+    "static/media/snakeB.jpg": "/Zal-/static/media/snakeB.77e87b992a29aa47330b.jpg",
+    "index.html": "/Zal-/index.html",
+    "main.25c4852a.css.map": "/Zal-/static/css/main.25c4852a.css.map",
+    "main.a741d450.js.map": "/Zal-/static/js/main.a741d450.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25c4852a.css",
+    "static/js/main.a741d450.js"
+  ]
+}
