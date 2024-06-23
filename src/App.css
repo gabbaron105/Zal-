@@ -42,3 +42,8 @@
 .game-button button:hover {
   background-color: #45a049;
 }
+
+.app-footer{
+  margin-top: 40px;
+  color: black;
+}

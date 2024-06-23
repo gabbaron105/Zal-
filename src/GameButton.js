@@ -4,7 +4,7 @@ function GameButton() {
   return (
     <div className="game-button">
       <a href="./snake.exe" download>
-        <button>Pobierz Grę</button>
+        <button>Download</button>
       </a>
     </div>
   );
