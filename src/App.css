@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('../public/snakeB.jpg'); /* Podmień na swoje zdjęcie */
+  background-image: url('../public/snakeB.jpg'); 
   background-size: cover;
   background-position: center;
   text-align: center;

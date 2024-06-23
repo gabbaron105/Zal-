@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -30,3 +29,10 @@ jobs:
 
     - name: Run tests
       run: npm test
+
+    - name: Deploy to GitHub Pages
+      if: success() && github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./zal
